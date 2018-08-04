@@ -2,6 +2,7 @@
 
 Angular 6 with Bootstrap 4 example usage of row-column with same height using Angular directives *ngFor.
 
+Live demo : https://github.com/miki995/angular-bootstrap-row-colum
 
 ## Dev
 
