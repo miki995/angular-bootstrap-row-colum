@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "untitled": {
+    "angular-bootstrap-row-colum": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/untitled",
+            "outputPath": "dist/angular-bootstrap-row-colum",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -50,18 +50,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "untitled:build"
+            "browserTarget": "angular-bootstrap-row-colum:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "untitled:build:production"
+              "browserTarget": "angular-bootstrap-row-colum:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "untitled:build"
+            "browserTarget": "angular-bootstrap-row-colum:build"
           }
         },
         "test": {
@@ -95,7 +95,7 @@
         }
       }
     },
-    "untitled-e2e": {
+    "angular-bootstrap-row-colum-e2e": {
       "root": "e2e/",
       "projectType": "application",
       "architect": {
@@ -103,11 +103,11 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "untitled:serve"
+            "devServerTarget": "angular-bootstrap-row-colum:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "untitled:serve:production"
+              "devServerTarget": "angular-bootstrap-row-colum:serve:production"
             }
           }
         },
@@ -123,5 +123,5 @@
       }
     }
   },
-  "defaultProject": "untitled"
+  "defaultProject": "angular-bootstrap-row-colum"
 }
