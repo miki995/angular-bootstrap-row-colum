@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "github-pages-build": "ng build --prod --base-href 'https://miki995.github.io/angular-bootstrap-row-colum'",
+    "github-pages-build": "ng build'",
     "github-pages-deploy": "npx ngh --dir dist/angular-bootstrap-row-colum",
     "build": "ng build",
     "test": "ng test",
