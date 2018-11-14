@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/miki995/angular-bootstrap-row-colum.svg?branch=master)](https://travis-ci.org/miki995/angular-bootstrap-row-colum)
 # Angular + Bootstrap row-column grid with same height
 
 Angular 6 with Bootstrap 4 example usage of row-column with same height using Angular directives *ngFor.
