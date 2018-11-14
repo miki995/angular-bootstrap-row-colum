@@ -10,7 +10,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "tsc": "ng build && ng test && ng lint"
+    "travis": "ng build && ng test && ng lint"
   },
   "private": true,
   "dependencies": {
