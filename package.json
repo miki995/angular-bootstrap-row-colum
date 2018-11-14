@@ -6,11 +6,9 @@
     "start": "ng serve",
     "github-pages-build": "ng build'",
     "github-pages-deploy": "npx ngh --dir dist/angular-bootstrap-row-colum",
-    "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "travis": "ng build && ng test && ng lint"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
